@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+
+/*---------------------------------NAV MENU--------------------------------*/
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    height: 69px;
+    box-sizing: border-box;
+    border-bottom: 1px solid seashell;
+    z-index: 10;
+}
+
+header img {
+    height: 50px;
+    padding: 10px 10px;
+}
+
+nav {
+    display: inline-flex;
+    text-decoration: underline;
+    overflow: hidden;
+    float: right;
+}
+
+nav a {
+    color: white;
+    display: inline-flex;
+    padding: 20px 10px 8px;
+}
+
+
+/*------------------------------------TOP SECTION----------------------------*/
+
+.top {
+    position: relative;
+    top: 69px;
+    text-align: center;
+}
+
+.top img {
+    width: 1200px;
+    height: auto;
+}
+
+.textimg {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    left: 50%;
+    padding: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/*--------------------------------------TEA OF THE MONTH-----------------------------------*/
+
+.monthly {
+    position: relative;
+    top: 480px;
+    width: 1000px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box img {
+    width: 300px;
+    height: 200px;
+    padding: 20px 15px 10px 15px;
+}
+
+h4 {
+    margin-bottom: 15px;
+}
+
+
+/*---------------------------------LOCATIONS----------------------*/
+
+.bottom {
+    height: 500px;
+    width: 1200px;
+    position: relative;
+    top: 220px;
+    background-image: url(images/img-locations-background.jpg);
+    background-size: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-loc {
+    align-items: center;
+    padding-top: 75px;
+}
+
+.loc-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.location {
+    background-color: black;
+    width: 300px;
+    line-height: 70px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+
+/*------------------------------FOOTER-----------------------------*/
+
+footer {
+    position: relative;
+    top: 250px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+.ftr-content {
+    margin-top: -20px;
+    line-height: 50px;
+}
+
+#copyright {
+    margin: 40px 20px;
+    text-align: left;
+    bottom: 0px;
+}
